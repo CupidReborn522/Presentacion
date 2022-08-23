@@ -1,4 +1,9 @@
 /* Global properties */
+html{
+    padding:0;
+    margin:0;
+    border:0;
+}
 
 body{
     margin:0;
@@ -23,29 +28,20 @@ h2,h3{
     padding: 30px 25px
 }
 
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /* vars */
 :root{
     --text-background: rgb(220,220,220);
 }
 
 /* imports */
-
-/* Header // Navbar */
-
-.header{
-
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
-
-
-}
-
-.navbar ul{
-    list-style-type: none;
-    
-}
 
 
 /* profile */
@@ -128,11 +124,11 @@ justify-content: space-between;
 .container-title h2{
     /* font-size: calc(200px+1.5vw); */
     font-family: 'Press Start 2P', cursive;
-    font-size:20px;
+    font-size:25px;
     background-color:var(--text-background);
     border-radius: 10px;
     margin-top:20px;
-    padding:20px;
+    padding:30px;
     animation: title-rainbow 5s linear infinite;
     animation-direction: alternate-reverse;
 }
@@ -156,15 +152,18 @@ justify-content: space-between;
 .container-img h3{
     background-color:var(--text-background);
     border-radius: 10px;
-    padding:5px;
+    padding:13px;
+    font-family: 'Bebas Neue', cursive;
     font-size: 30px;
     margin-top:20px;
+    text-align:center;
 }
 
 @media screen and ( min-width: 500px ){
 
     .container-img h3{
         font-size: 5vw;
+        padding:20px;
     }
 }
 
