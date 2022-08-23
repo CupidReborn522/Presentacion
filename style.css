@@ -41,8 +41,39 @@ h2,h3{
     --text-background: rgb(220,220,220);
 }
 
+.header{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    
+}
+
 /* imports */
 
+/* Header // Navbar */
+
+.header{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    }
+    
+    .navbar ul{
+        list-style-type: none;
+        
+    }
 
 /* profile */
 
