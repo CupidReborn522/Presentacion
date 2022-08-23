@@ -23,20 +23,18 @@ h2,h3{
     padding: 30px 25px
 }
 
-
-
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 /* vars */
 :root{
     --text-background: rgb(220,220,220);
 }
 
 /* imports */
+
+/* Header // Navbar */
+
+.header{
+
+}
 
 
 /* profile */
