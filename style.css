@@ -29,11 +29,11 @@ h2,h3{
     padding: 30px 25px
 }
 
-bg-1{
+.bg-1{
     background-image: url("bg-pattern.jpg");
 }
 
-bg-2{
+.bg-2{
     background-image: url("bg-pattern2.jpg");
 }
 
