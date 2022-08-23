@@ -13,6 +13,7 @@ body{
     background-image: url("bg-pattern2.gif");
     border: 0;
     font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 p{
@@ -26,6 +27,14 @@ h2,h3{
 
 .pd-1{
     padding: 30px 25px
+}
+
+bg-1{
+    background-image: url("bg-pattern.jpg");
+}
+
+bg-2{
+    background-image: url("bg-pattern2.jpg");
 }
 
 
@@ -207,4 +216,22 @@ h2,h3{
 
 /* Proyects */
 
+.proyects{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+}
+
+.proyects h3{
+    background-color: var(--text-background);
+}
+
+.proyect-card{
+    width:200px;
+    height:290px;
+    background-color: grey;
+    border-radius: 20px;
+}
 
